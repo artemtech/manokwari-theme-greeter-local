@@ -22,5 +22,6 @@ manokwari-theme-greeter$ sudo cp greeter /usr/share/lightdm-webkit/themes/manokw
 3. edit file ```/etc/lightdm/lightdm.conf``` find: `#greeter-session=` change it to `greeter-session=lightdm-webkit-greeter`
 or
 if there is no entries in lightdm.conf, you can directly add by yourself:
-`[Seat:*]
-greeter-session=lightdm-webkit-greeter`
+```bash
+[Seat:*]
+greeter-session=lightdm-webkit-greeter```
