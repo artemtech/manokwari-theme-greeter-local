@@ -12,7 +12,8 @@ $ sudo apt install lightdm-webkit-greeter
 ```
 
 ## HOW-TO MANUAL INSTALL ON VARIOUS DISTRO:
-1. ```bash
+1.
+```bash
 $ git clone https://github.com/artemtech/manokwari-theme-greeter
 $ cd manokwari-theme-greeter
 manokwari-theme-greeter$ sudo cp greeter /usr/share/lightdm-webkit/themes/manokwari-theme-greeter
