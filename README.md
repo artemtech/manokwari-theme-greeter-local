@@ -24,4 +24,5 @@ or
 if there is no entries in lightdm.conf, you can directly add by yourself:
 ```bash
 [Seat:*]
-greeter-session=lightdm-webkit-greeter```
+greeter-session=lightdm-webkit-greeter
+```
